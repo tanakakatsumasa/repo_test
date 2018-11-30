@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-/* ///////////////////////////////////
-ブロックチェーンCSS
-/////////////////////////////////// */
-
 .breadcrumb {
     margin-bottom: 0;
 }
@@ -498,13 +494,13 @@
     .hero-area-b .visual:before {
         content: "";
         display: block;
-        padding-top: 100%;
+        padding-top: ;
         position: absolute;
     }
 
     .hero-area-b .content .sub-txt > * {
-        margin-bottom: 19.74vw;
-        text-align: left;
+        margin-bottom: 19;
+        text-align: left
     }
 
     .sub-main-txt p {
