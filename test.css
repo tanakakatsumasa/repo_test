@@ -1,0 +1,538 @@
+@charset "UTF-8";
+
+/* ///////////////////////////////////
+ブロックチェーンCSS
+/////////////////////////////////// */
+
+.breadcrumb {
+    margin-bottom: 0;
+}
+
+.b-sp-hide {
+    display: block;
+}
+
+.b-pc-hide {
+    display: none;
+}
+
+.hdg-b {
+    margin-bottom: 40px;
+}
+
+.hero-area-b .content .main-txt > *,
+.hero-area-b .content .sub-txt > * {
+    background: none;
+    color: #000;
+    text-align: center;
+    display: block;
+}
+
+.hero-area-b .content .main-txt > * {
+    font-size: 6rem;
+    margin: 17vw 0 0;
+    text-align: center;
+}
+
+.hero-area-b .content .sub-txt > * {
+    margin-bottom: 9.74vw;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.hero-area-b {
+    max-height: inherit;
+    height: auto;
+    padding: 0 0 50px;
+}
+
+.b-layout-flex-item a {
+    text-decoration: none;
+}
+
+.b-inner-box {
+    width: 80%;
+    padding: 3%;
+    margin: -8% 0 0 auto;
+    background: #fff;
+    position: relative;
+}
+
+.even {
+    padding-top: 50px;
+}
+
+.b-inner-box h2 {
+    color: #A30B1A;
+}
+
+.hero-area-b .visual > img,
+.hero-area-b .visual > a > img {
+    min-width: auto;
+}
+
+.sub-main-txt p {
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 1.9;
+    padding: 0 60px;
+}
+
+.hero-area-b:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    position: absolute;
+}
+
+.hero-area-b + * {
+    margin: 0;
+}
+
+.hero-area-b + * .section-inner {
+    padding-top: 0;
+}
+
+.b-lyt-col {
+    color: #a30b1a;
+}
+
+.b-lyt-col .btn-a {
+    background: #eee;
+    font-size: 1.1rem;
+    padding: 5px 22px 5px 12px;
+    font-weight: bold;
+}
+
+.main-contents .section + .section[class*="b-bg-"] .section-inner,
+.main-contents .js-news-ticker .section-inner {
+    padding: 0;
+}
+
+.main-contents .news-tck-box .news-tck-title {
+    background: none;
+    color: #fff;
+}
+
+.main-contents .news-tck-area .news-tck-content a {
+    color: #fff;
+}
+
+.visual img {
+    width: 100%;
+}
+
+.news-tck-box .news-rss-icon {
+    background: none;
+}
+
+.lyt-item-a {
+    background: #fff;
+}
+
+.lyt-item-a > .item {
+    padding: 0 40px 0 0;
+}
+
+.btn-a:hover, .btn-a:active, .btn-a:focus {
+    background: #f6cfd3;
+}
+
+.icon-fixed-a-wrapper > .icon-fixed-a {
+    top: 0;
+    right: 0;
+}
+
+.icon-fixed-a-wrapper img.icon-fixed-a,
+.icon-fixed-a-wrapper img.icon-fixed-b {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.b-color-label-999 {
+    /* background: none;
+    color: #A30B1A; */
+}
+
+.lyt-col-announce-a {
+    margin-top: 0;
+}
+
+.lyt-btn-b > li {
+    padding: 10px 0 0;
+}
+
+.lyt-item-a .b-color-label-999,
+.col .b-color-label-999 {
+    /* display: block; */
+    margin: 20px 0 5px;
+}
+
+.col .b-color-label-999 {
+    margin: 10px 0 5px;
+
+    /* padding: 0; */
+}
+
+.col .icon-fixed-a-wrapper > .icon-fixed-b {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.diff-col2.list-link-a .b-color-label-999 {
+    /* display: block; */
+    /* padding: 0; */
+}
+
+.diff-col2.list-link-a strong {
+    display: block;
+    padding: 0 20px 0 0;
+}
+
+.list-link-a.diff-col2.blockchain-list > li {
+    position: relative;
+}
+
+.list-link-a.diff-col2.blockchain-list > li > a::before {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.txt-white {
+    color: #fff;
+}
+
+.list-link-a.diff-col2.blockchain-list > li > a {
+    padding-left: 80px;
+    display: block;
+    border-top: 1px solid #CECEC9;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.list-link-a.diff-col2.blockchain-list > li > a.icon_01 {
+    background: url(https://www.fujitsu.com/downloads/JP/innovation/blockchain/images/list_icon_01.png) no-repeat left center;
+    background-size: 43px 52px;
+}
+
+.list-link-a.diff-col2.blockchain-list > li > a.icon_02 {
+    background: url(https://www.fujitsu.com/downloads/JP/innovation/blockchain/images/list_icon_02.png) no-repeat left center;
+    background-size: 50px 52px;
+}
+
+.list-link-a.diff-col2.blockchain-list > li > a.icon_03 {
+    background: url(https://www.fujitsu.com/downloads/JP/innovation/blockchain/images/list_icon_03.png) no-repeat left center;
+    background-size: 47px 52px;
+}
+
+.list-link-a.diff-col2.blockchain-list > li > a.icon_04 {
+    background: url(https://www.fujitsu.com/downloads/JP/innovation/blockchain/images/list_icon_04.png) no-repeat left center;
+    background-size: 52px 41px;
+}
+
+.list-link-a.diff-col2.blockchain-list > li > a.icon_05 {
+    background: url(https://www.fujitsu.com/downloads/JP/innovation/blockchain/images/list_icon_05.png) no-repeat left center;
+    background-size: 52px 44px;
+}
+
+.list-link-a.diff-col2.blockchain-list > li > a.icon_06 {
+    background: url(https://www.fujitsu.com/downloads/JP/innovation/blockchain/images/list_icon_06.png) no-repeat left center;
+    background-size: 52px 52px;
+}
+
+.list-link-a.diff-col2.blockchain-list > li > a.icon_07 {
+    background: url(https://www.fujitsu.com/downloads/JP/innovation/blockchain/images/list_icon_07.png) no-repeat left center;
+    background-size: 52px 47px;
+}
+
+.list-link-a.diff-col2.blockchain-list > li > a.icon_08 {
+    background: url(https://www.fujitsu.com/downloads/JP/innovation/blockchain/images/list_icon_08.png) no-repeat left center;
+    background-size: 51px 52px;
+}
+
+.b-anim {
+    opacity: 0;
+}
+
+.fadeIn {
+    animation-name: fadein;
+    animation-duration: .5s;
+}
+
+.main-contents .section.diff-bg-e .panel-content {
+    background: #dad9d6;
+}
+
+.main-contents .section.diff-bg-f .panel-content {
+    background: #eee;
+}
+
+.main-contents .section.diff-bg-e .panel-content .lyt-btn-b,
+.main-contents .section.diff-bg-f .panel-content .lyt-btn-b,
+#services .lyt-btn-b {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main-contents .hdg-a + .section .section-inner, .main-contents .hdg-a-wrapper + .section .section-inner {
+    padding-top: 56px;
+}
+
+.hdg-a-wrapper .hdg-a {
+    padding-top: 35px;
+}
+
+.hdg-a-wrapper {
+    margin-bottom: 35px;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+
+.b-menu {
+    display: none;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    padding: 15px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+
+.b-menu::before {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    content: "";
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    margin: -5px 14px 0 -23px;
+    vertical-align: middle;
+    width: 8px;
+    height: 8px;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+}
+
+.main-contents p + :not([class^="hdg-"]):not([class*=" hdg-"]) {
+    margin: 0;
+}
+
+.section-inner .lyt-panel-a .panels {
+    background: none;
+}
+
+@media only screen and (max-width: 1280px) {
+    .hero-area-b .visual > img, .hero-area-b .visual > a > img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .b-curent.b-menu::before {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+    }
+
+    .pt25 {
+        padding-top: 25px;
+    }
+
+    .js-nav-fixed,
+    .nav-a {
+        display: block;
+    }
+
+    .nav-a ul > li {
+        display: block;
+    }
+
+    #case-studies .section-inner {
+        padding: 15px;
+    }
+
+    .nav-a ul {
+        display: none;
+    }
+
+    .b-is-fixed .nav-a ul > li {
+        display: block;
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    .nav-a ul > li::after,
+    .nav-a ul > li::before {
+        display: none;
+    }
+
+    .b-menu {
+        display: block;
+    }
+
+    .nav-a ul a {
+        text-decoration: none;
+        padding: 15px 0;
+    }
+
+    .main-contents .section.diff-bg-f {
+        padding-top: 25px;
+    }
+
+    .hero-area-b {
+        height: 80.2vw;
+    }
+
+    .sub-main-txt p {
+        font-size: 1.6rem;
+    }
+
+    .hero-area-b .content .sub-txt > * {
+        margin-bottom: 10.74vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    img.b-pc-hide {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    img.b-sp-hide {
+        display: none;
+    }
+
+    .hero-area-b .content {
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .hero-area-b .content .content-inner {
+        background: none;
+        padding-top: 0;
+    }
+
+    .hero-area-b .content .main-txt {
+        margin-bottom: 0;
+    }
+
+    .hero-area-b .content .main-txt > * {
+        font-size: 7.46vw;
+        margin: 0;
+        text-align: left;
+
+        /* line-height: 1.2; */
+    }
+
+    .hero-area-b .content .sub-txt > * {
+        margin-bottom: 0;
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    .hero-area-b .visual {
+        position: absolute;
+    }
+
+    .hero-area-b .visual > img, .hero-area-b .visual > a > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .even {
+        padding-top: 0;
+    }
+
+    .hero-area-b .content .sub-txt > * {
+        margin-bottom: 56.16vw;
+    }
+
+    .sub-main-txt {
+        text-align: left;
+        margin-top: 56.16vw;
+    }
+
+    .sub-main-txt br {
+        margin: 0 0 1em;
+    }
+
+    .hero-area-b {
+        max-height: inherit;
+        height: auto;
+    }
+
+    .hero-area-b .visual {
+        top: calc(135vw*100/767);
+    }
+
+    .hero-area-b .visual:before {
+        content: "";
+        display: block;
+        padding-top: 100%;
+        position: absolute;
+    }
+
+    .hero-area-b .content .sub-txt > * {
+        margin-bottom: 19.74vw;
+        text-align: left;
+    }
+
+    .sub-main-txt p {
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 0;
+    }
+
+    .main-contents .section-inner {
+        /* padding: 0; */
+    }
+
+    .main-contents .section + .section[class*="b-bg-"] .section-inner,
+    .main-contents .js-news-ticker .section-inner {
+        padding: 25px 20px;
+    }
+
+    .lyt-col-feature-a > .col a .visual img {
+        max-width: 100%;
+    }
+
+    .contact-content.txt-white {
+        color: #000;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero-area-b .visual {
+        top: calc(170vw*100/767);
+    }
+}
